@@ -28,7 +28,7 @@ class PasswordTextField: UIView {
     }
     
     override var intrinsicContentSize: CGSize {
-        return CGSize(width: 200, height: 50)
+        return CGSize(width: 200, height: 60)
     }
 }
 
@@ -36,8 +36,7 @@ extension PasswordTextField {
     
     func style() {
         translatesAutoresizingMaskIntoConstraints = false
-        backgroundColor = .systemOrange
-        
+       
         lockImageView.translatesAutoresizingMaskIntoConstraints = false
         
         textField.translatesAutoresizingMaskIntoConstraints = false
@@ -60,8 +59,8 @@ extension PasswordTextField {
         errorLabel.textColor = .systemRed
         errorLabel.font = UIFont.preferredFont(forTextStyle: .footnote)
         errorLabel.text = "Enter your password"
-        errorLabel.adjustsFontSizeToFitWidth = true
-        errorLabel.minimumScaleFactor = 0.8
+        errorLabel.numberOfLines = 0
+        errorLabel.lineBreakMode = .byWordWrapping
         errorLabel.isHidden = false
     }
     
@@ -105,10 +104,10 @@ extension PasswordTextField {
             errorLabel.leadingAnchor.constraint(equalTo: leadingAnchor),
             errorLabel.trailingAnchor.constraint(equalTo: trailingAnchor)
         ])
-        
+                
         // CHCR
         lockImageView.setContentHuggingPriority(UILayoutPriority.defaultHigh, for: .horizontal)
-        textField.setContentHuggingPriority(UILayoutPriority.defaultHigh, for: .horizontal)
+        textField.setContentHuggingPriority(UILayoutPriority.defaultLow, for: .horizontal)
         eyeButton.setContentHuggingPriority(UILayoutPriority.defaultHigh, for: .horizontal)
     }
 }
