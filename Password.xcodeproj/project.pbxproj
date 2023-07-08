@@ -11,6 +11,8 @@
 		0BB0E7312A58E9D900821D40 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB0E7302A58E9D900821D40 /* SceneDelegate.swift */; };
 		0BB0E7382A58E9D900821D40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BB0E7372A58E9D900821D40 /* Assets.xcassets */; };
 		0BB0E73B2A58E9D900821D40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BB0E7392A58E9D900821D40 /* LaunchScreen.storyboard */; };
+		0BB0E7442A58EDC500821D40 /* ViewController .swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB0E7432A58EDC500821D40 /* ViewController .swift */; };
+		0BB0E7462A58EE5100821D40 /* PasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB0E7452A58EE5100821D40 /* PasswordTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		0BB0E7372A58E9D900821D40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BB0E73A2A58E9D900821D40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0BB0E73C2A58E9D900821D40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BB0E7432A58EDC500821D40 /* ViewController .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController .swift"; sourceTree = "<group>"; };
+		0BB0E7452A58EE5100821D40 /* PasswordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				0BB0E7422A58EAEA00821D40 /* Files */,
 				0BB0E72E2A58E9D900821D40 /* AppDelegate.swift */,
 				0BB0E7302A58E9D900821D40 /* SceneDelegate.swift */,
+				0BB0E7432A58EDC500821D40 /* ViewController .swift */,
+				0BB0E7452A58EE5100821D40 /* PasswordTextField.swift */,
 			);
 			path = Password;
 			sourceTree = "<group>";
@@ -140,6 +146,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BB0E72F2A58E9D900821D40 /* AppDelegate.swift in Sources */,
+				0BB0E7442A58EDC500821D40 /* ViewController .swift in Sources */,
+				0BB0E7462A58EE5100821D40 /* PasswordTextField.swift in Sources */,
 				0BB0E7312A58E9D900821D40 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
