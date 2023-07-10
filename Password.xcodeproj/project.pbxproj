@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B17F7DE2A5B84B000AF0FC1 /* PasswordCriteria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B17F7DD2A5B84B000AF0FC1 /* PasswordCriteria.swift */; };
 		0B40C89D2A5A329D00CCF0DB /* PasswordCriteriaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B40C89C2A5A329D00CCF0DB /* PasswordCriteriaView.swift */; };
 		0B40C89F2A5A415100CCF0DB /* PasswordStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B40C89E2A5A415100CCF0DB /* PasswordStatusView.swift */; };
 		0BB0E72F2A58E9D900821D40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB0E72E2A58E9D900821D40 /* AppDelegate.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B17F7DD2A5B84B000AF0FC1 /* PasswordCriteria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordCriteria.swift; sourceTree = "<group>"; };
 		0B40C89C2A5A329D00CCF0DB /* PasswordCriteriaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordCriteriaView.swift; sourceTree = "<group>"; };
 		0B40C89E2A5A415100CCF0DB /* PasswordStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordStatusView.swift; sourceTree = "<group>"; };
 		0BB0E72B2A58E9D900821D40 /* Password.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Password.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +48,7 @@
 			children = (
 				0B40C89C2A5A329D00CCF0DB /* PasswordCriteriaView.swift */,
 				0B40C89E2A5A415100CCF0DB /* PasswordStatusView.swift */,
+				0B17F7DD2A5B84B000AF0FC1 /* PasswordCriteria.swift */,
 			);
 			name = PasswordStatusView;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 				0B40C89D2A5A329D00CCF0DB /* PasswordCriteriaView.swift in Sources */,
 				0B40C89F2A5A415100CCF0DB /* PasswordStatusView.swift in Sources */,
 				0BB0E7462A58EE5100821D40 /* PasswordTextField.swift in Sources */,
+				0B17F7DE2A5B84B000AF0FC1 /* PasswordCriteria.swift in Sources */,
 				0BB0E7312A58E9D900821D40 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
